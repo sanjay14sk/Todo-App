@@ -55,9 +55,7 @@ function App() {
         setSearch={setSearch}
        />
       <Content
-      item={item.filter(item=>((item.item).
-        toLowerCase()).includes
-        (search.toLowerCase() ))}
+      item={item.filter(item=>((item.item).toLowerCase()).includes(search.toLowerCase() ))}
       handleChange={handleChange}
       handledelete={handledelete}
        />
